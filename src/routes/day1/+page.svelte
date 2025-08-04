@@ -1,3 +1,7 @@
+<script>
+	import Button from '../../components/Button.svelte';
+</script>
+
 <div class="w-full bg-blue-300">
 	<div class="prose p-5">
 		<h1 class="text-center">David's Profile</h1>
@@ -14,8 +18,13 @@
 
 		<p>Hi my name is david.</p>
 
-        <h2>Haiku Exercise</h2>
+		<h2>Haiku Exercise</h2>
+		<div class="bg-white text-center text-blue-900">This is colored text</div>
 
+		<h2>Components</h2>
+
+		<Button text={'CLICK ME'} message={'I was clicked'} />
+		<Button text={'DONT CLICK ME'} message={'Why did you click me?'} />
 	</div>
 </div>
 

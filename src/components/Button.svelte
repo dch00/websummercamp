@@ -1,13 +1,9 @@
 <script>
-	let { text, message } = $props();
-
-	function test() {
-		alert(message);
-	}
+	let { text, fn } = $props();
 </script>
 
 <button
-	onclick={test}
-	class="m-2 cursor-pointer rounded border bg-gradient-to-br from-blue-600 via-purple-400 to-orange-500 p-2 hover:animate-spin"
+	onclick={fn}
+	class="m-1 rounded border px-3 py-1 transition-all duration-200 hover:bg-black hover:text-white active:scale-110"
 	>{text}</button
 >

@@ -5,9 +5,7 @@
 <div class="w-full bg-blue-300">
 	<div class="prose p-5">
 		<h1 class="text-center">David's Profile</h1>
-
 		<hr />
-
 		<div
 			class="profile-image h-20 w-20 overflow-hidden rounded-full bg-black bg-cover bg-center"
 		></div>
